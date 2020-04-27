@@ -3,7 +3,7 @@ $fa-font-path: "/assets/node_modules/@fortawesome/fontawesome-free/webfonts";
 @import url('https://use.fontawesome.com/releases/v5.2.0/css/all.css');
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Poppins:200,400,700');
 
-$primary: #D79C34;
+$primary: #000000;
 $primary-light: #F9E5D0;
 $blue: #20285C;
 $pink: #ECB6B8;
@@ -176,9 +176,8 @@ section#intro {
 		height:100%;
 		width:100%;
 		z-index:0;
-		opacity:.15;
-		background: url('../images/splash.gif') no-repeat center center;
-		background-size:contain;
+		background: url('../images/chladni.gif') no-repeat center center;
+		background-size:cover;
 		@include touch(){
 			background-image: url('../images/splash_mobile.gif');
 		}
